@@ -1,4 +1,4 @@
-/*In the name of Allah the Most Merciful.
+package String;/*In the name of Allah the Most Merciful.
  * Author
  * Md. Toufiqul Islam
  * Dept. Of CSE
