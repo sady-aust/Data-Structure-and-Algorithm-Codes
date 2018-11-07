@@ -112,13 +112,15 @@ public class LevelOrderTraversal {
 
             stack.pop();
 
+            if(temp.right!=null){
+                stack.push(temp.right);
+            }
+            
             if(temp.left!=null){
                 stack.push(temp.left);
             }
 
-            if(temp.right!=null){
-                stack.push(temp.right);
-            }
+          
         }
     }
 
